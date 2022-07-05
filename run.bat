@@ -1,0 +1,1 @@
+g++ sandbox.cpp -I ./../Ampere-Core/src -I ./../Ampere-Core/src/core -I ./../Ampere-Core/src/events -I ./../Ampere-Core/modules/spdlog/include -L ./../Ampere-Core/build -L ./ -lampere -D AMP_PLATFORM_WINDOWS -o ./../Ampere-Core/build/sandbox && cd ./../Ampere-Core/build/ && clear && sandbox.exe

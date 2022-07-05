@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/../Ampere-Core/src/",
+                "${workspaceFolder}/../Ampere-Core/src/core/",
+                "${workspaceFolder}/../Ampere-Core/src/events/",
+                "${workspaceFolder}/../Ampere-Core/modules/spdlog/include"
+            ],
+            "defines": [
+                "AMP_PLATFORM_WINDOWS"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
